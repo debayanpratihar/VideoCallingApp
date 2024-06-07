@@ -1,0 +1,121 @@
+/* Support section */
+.support {
+    text-align: right;
+}
+
+.support button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.support button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.fa-arrows-rotate {
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.fa-arrows-rotate:hover {
+    color: #2196f3;
+    transform: rotate(360deg);
+}
+
+/* Home section */
+.home {
+    padding: 1.5rem;
+    min-width: 320px;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto;
+    color: var(--text-color);
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.home:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.home-header {
+    color: var(--text-color);
+    display: grid;
+    grid-gap: 1rem;
+    transition: color 0.3s ease;
+}
+
+.home-header:hover {
+    color: #ff5722;
+}
+
+.home-buttons button {
+    padding: 0.5rem;
+    float: right;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196f3;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-buttons button:hover {
+    background-color: #1976d2;
+    transform: translateY(-2px);
+}
+
+.home i {
+    padding: 0.4rem;
+    transition: color 0.3s ease;
+}
+
+.home i:hover {
+    color: #ff9800;
+}
+
+.home button i {
+    padding: 0.2rem;
+}
+
+.home select {
+    padding: 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home select:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home input {
+    padding: 1rem;
+    color: var(--input-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home input:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
