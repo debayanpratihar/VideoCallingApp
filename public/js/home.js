@@ -99,7 +99,7 @@ function isFieldsOk() {
 function checkTime() {
     const now = new Date();
     const hours = now.getHours();
-    if (hours < 18 || hours >= 24) {
+    if (hours < 11 || hours >= 24) {
         Swal.fire({
             icon: 'error',
             title: 'Unavailable',
